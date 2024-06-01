@@ -84,7 +84,7 @@ class FaceRecognition:
             
             cv2.imshow('face Recognition',frame)
 
-            if cv2.waitKey(1) == ord('q'):
+            if cv2.waitKey(1)  == ord('q'):
                 break
         
         video_capture.release()
